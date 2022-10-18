@@ -5,7 +5,7 @@ Python script for trying to get an appointment slot for the residence permit in 
 ```bash
 $ brew install chromedriver
 $ python3 -m pip install selenium
-$ python3 -m pip install seleniumwire
+$ python3 -m pip install selenium-wire
 ```
 
 ## Run it
