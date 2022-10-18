@@ -4,12 +4,13 @@ Python script for trying to get an appointment slot for the residence permit in 
 ## Requirements
 ```bash
 $ brew install chromedriver
-$ python3 -m pip install selenium
-$ python3 -m pip install selenium-wire
+$ python3 -m pip install -r requirements.txt
 ```
 
 ## Run it
 After installing the dependencies above, run:
 ```bash
+# You can also use a .env file instead
+export SLACK_WEBHOOK_URL=https://hooks.slack.com/services/XXX/XXX/XXX
 ./helplessly-try.sh
 ```
